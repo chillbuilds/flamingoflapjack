@@ -1,0 +1,12 @@
+body {
+    background: #EFECCA;
+    /* color: #0C1713; */
+    color: #1E2019;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.2em;
+}
+
+.container {
+    position: absolute;
+    top: 2%;
+}
