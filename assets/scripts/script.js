@@ -15,6 +15,7 @@ $(document).ready(function() {
             $('#err-fakeout').attr('style', 'display: none')
             $('.container').attr('style', 'display: inline-block')
             $('body').attr('style', 'background: #EFECCA;')
+            $('#video-background').attr('style', 'display: inline;')
         }
       })
 })
