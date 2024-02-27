@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    $('#controller').attr('style', 'display:none')
     $("#password-input").focus()
 
     $(document).keydown(function(event) {
@@ -15,8 +14,11 @@ $(document).ready(function() {
             console.log('got in')
             $('#err-fakeout').attr('style', 'display: none')
             $('.container').attr('style', 'display: inline-block')
-            $('body').attr('style', 'background: #EFECCA;')
-            $('#video-background').attr('style', 'display: inline;')
+            $('body').attr('style', 'background: url("https://flamingoflapjack.com/files/car-bg.gif") no-repeat center center fixed; background-size:cover; user-select:none;')
         }
       })
 })
+
+let removeControls = () => {
+    setInterval()
+}
