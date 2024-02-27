@@ -7,6 +7,12 @@ body {
 }
 
 .container {
+    position: relative;
+    top: 20px;
+    display: none;
+}
+
+#password-input {
     position: absolute;
-    top: 2%;
+    top: -1000px;
 }
