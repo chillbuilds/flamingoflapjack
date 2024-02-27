@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $('#controller').attr('style', 'display:none')
     $("#password-input").focus()
 
     $(document).keydown(function(event) {
