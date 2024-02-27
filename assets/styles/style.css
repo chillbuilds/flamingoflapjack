@@ -1,5 +1,5 @@
 body {
-    background: #EFECCA;
+    background: white;
     /* color: #0C1713; */
     color: #1E2019;
     font-family: 'Josefin Sans', sans-serif;
@@ -15,4 +15,14 @@ body {
 #password-input {
     position: absolute;
     top: -1000px;
+}
+
+#err-fakeout {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#fakeout-img {
+    width: 500px;
 }

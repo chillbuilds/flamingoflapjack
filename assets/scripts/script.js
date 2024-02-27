@@ -12,7 +12,9 @@ $(document).ready(function() {
         let inputValue = $(this).val()
         if(inputValue == 'asdf'){
             console.log('got in')
+            $('#err-fakeout').attr('style', 'display: none')
             $('.container').attr('style', 'display: inline-block')
+            $('body').attr('style', 'background: #EFECCA;')
         }
       })
 })
